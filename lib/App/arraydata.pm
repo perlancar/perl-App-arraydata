@@ -70,11 +70,11 @@ $SPEC{arraydata} = {
                     is_flag => 1,
                     code => sub { my $args=shift; $args->{action} = 'list_installed' },
                 },
-                C => {
-                    summary=>'List ArrayData::* on CPAN',
-                    is_flag => 1,
-                    code => sub { my $args=shift; $args->{action} = 'list_installed' },
-                },
+                #C => {
+                #    summary=>'List ArrayData::* on CPAN',
+                #    is_flag => 1,
+                #    code => sub { my $args=shift; $args->{action} = 'list_cpan' },
+                #},
                 R => {
                     summary=>'Pick random elements from an ArrayData module',
                     is_flag => 1,
