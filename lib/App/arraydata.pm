@@ -104,7 +104,6 @@ $SPEC{arraydata} = {
     },
     examples => [
     ],
-    'cmdline.default_format' => 'text-simple',
 };
 sub arraydata {
     my %args = @_;
